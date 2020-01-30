@@ -1,0 +1,435 @@
+
+/* body {
+    background-color: #FAFAFA;
+} */
+
+/* Home page */
+
+/* Navbar */
+#navbarHome{
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
+    background: url('../img/NavbarBgHome.png') no-repeat;
+    padding-bottom: 90px;
+}
+
+#navbarHome nav div ul li {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+#navbarHome nav div ul li a{
+
+    color: white !important;
+    font-size: 20px;
+}
+
+#navbarHome nav div ul{
+
+padding-right: 3%;
+}
+
+
+#navbarHome div nav .navbar-brand {
+    padding-top: 27px;
+    padding-left: 60px;
+    color: #727272;
+    font-weight: bold;
+    font-size: 30px;
+}
+.fa-bars {
+    color: white;
+    font-size: 30px !important;
+    margin-top: 28px;
+   
+}
+.navbar-toggler {
+    outline: none !important;
+}
+@media (max-width: 1600px){
+    #navbarHome nav div ul{
+
+        padding-right: 0px;
+        }
+}
+
+@media (max-width: 1503px){
+
+    #navbarHome nav div ul li {
+        padding-left: 30px;
+     
+    }
+
+    #navbarHome nav div ul li a{
+
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1375px){
+
+    #navbarHome nav div ul li {
+        padding-left: 25px;
+     
+    }
+   
+}
+
+@media (max-width: 1260px){
+
+    #navbarHome nav div ul li a{
+
+        font-size: 18px;
+    }
+
+    #navbarHome nav div ul li {
+        padding-left: 20px;
+     
+    }
+   
+}
+
+
+@media (max-width: 1130px){
+
+    #navbarHome nav div ul li a{
+
+        font-size: 15px;
+    }
+
+    #navbarHome nav div ul li {
+        padding-left: 15px;
+     
+    }
+   
+}
+
+@media (max-width: 991px){
+
+    #navbarHome nav div ul li a{
+
+       color: black !important;
+    }
+
+}
+
+
+/* Header */
+
+#headerHome {
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
+    background: url('../img/HeaderBgHome.png') no-repeat ;
+    background-position: right -20px top;
+
+    background-size: 53% 100%;
+    margin-top: -230px;
+    padding-top: 200px;
+}
+.headerImgHome {
+    padding-bottom: 30%;
+    width: 70%;
+
+}
+.headerHome {
+    padding-left: 11%;
+    padding-top: 50px;
+}
+.headerHome p:nth-child(1){
+    font-size: 50px;
+    color: #727272;
+    font-weight: bold;
+    line-height: 65px;
+    
+}
+.headerHome p:nth-child(3){
+    font-size: 15px;
+    color: #727272;
+    padding-bottom: 15px;
+    width: 80%;
+
+    
+}
+.headerHome a{
+    background-color: #FECD1B;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+@media (max-width: 1300px){
+
+    .headerHome {
+    
+        padding-top: 30px;
+    }
+
+    .headerHome p:nth-child(1){
+        font-size: 40px;
+        line-height: 55px;
+        
+    }
+
+}
+
+@media (min-width: 1434px){
+
+    .headerHome p:nth-child(3){
+  
+        width: 60%;
+    
+        
+    }
+
+}
+
+@media (max-width: 1160px){
+
+    .headerHome {
+    
+        padding-top: 20px;
+    }
+
+    .headerHome p:nth-child(1){
+        font-size: 35px;
+        line-height: 42px;
+        
+    }
+
+}
+
+@media (max-width: 1000px){
+
+    .headerHome {
+    
+        padding-top: 10px;
+    }
+
+    .headerHome p:nth-child(1){
+        font-size: 28px;
+        line-height: 32px;
+        
+    }
+
+}
+@media (max-width: 985px){
+
+    .headerHome {
+        margin-top: -20px;
+        padding-top: 0px;
+    }
+
+    #navbarHome div nav .navbar-brand {
+
+        font-size: 25px;
+    }
+
+}
+
+
+
+@media (max-width: 800px){
+
+    .headerHome p:nth-child(1){
+        font-size: 21px;
+        line-height: 25px;
+        
+    }
+
+    .headerHome a{
+       font-size: 13px;
+      
+    }
+
+    .headerHome p:nth-child(3){
+      padding-bottom: 7px;
+      width: 90%;
+        
+    }
+
+}
+
+
+@media (max-width: 767px){
+
+    #navbarHome{
+        background: none;
+        background-color: #2161BE;
+    }
+
+    #headerHome{
+        text-align: center;
+        background: none;
+        background-color: #2161BE;
+        padding-bottom: 35px;
+ 
+    } 
+    .headerHome {
+        text-align: center;
+    }
+    .headerImgHome {
+        display: none;
+    }
+   
+    .headerHome p:nth-child(2){
+      font-size: 25px;
+      color: white;
+      width: 60%;
+      font-weight: bold;
+      margin-left: 15%;
+          
+      }
+
+      .headerHome p:nth-child(3){
+        font-size: 18px;
+        color: white;
+        }
+
+        #navbarHome div nav .navbar-brand {
+           
+            padding-left: 0px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        .headerHome a{
+         
+            margin-right: 10%;
+         }
+}
+
+@media (max-width: 419px){
+
+    .headerHome p:nth-child(2){
+        font-size: 20px !important;
+        
+        }
+
+        .headerHome a{
+    
+            margin-right: 8%;
+         }
+    
+}
+
+/* Service */
+
+
+#serviceHome{
+    padding-top: 40px;
+    padding-bottom: 100px;
+    margin-bottom: 50px;
+    background: url('../img/ServiceBgRight.png') no-repeat, url('../img/ServiceBgLeft.png') no-repeat;
+    background-position: left bottom, right 50%;
+}
+
+#serviceHome div p:nth-child(1){
+    font-size: 18px;
+    color: #FF4B57;
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
+    font-weight: bold;
+}
+
+.services{
+    font-size: 40px;
+    color: #2568EF;
+  font-family: sans-serif;
+    font-weight: 900;
+    margin-top: -21px;
+    margin-bottom: 7%;
+}
+
+.serviceHome p:nth-child(2){
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
+    padding-top: 20px;
+}
+
+.serviceHome p:nth-child(3){
+    
+  color: #797975;
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
+    padding-top: 4px;
+    padding-bottom: 15px;
+}
+
+@media (max-width:1500px){
+
+    #serviceHome{
+ 
+        background-position: left -40px bottom, right -50px bottom;
+    }
+
+}
+
+@media (max-width:1240px){
+
+    #serviceHome{
+ 
+        background-position: left -60px bottom, right -100px bottom;
+    }
+
+}
+
+@media (max-width:991px){
+
+    #serviceHome{
+ 
+        background-position: left -60px bottom, right -100px top 60px;
+    }
+
+}
+
+@media (max-width:767px){
+
+    #serviceHome{
+ 
+        background: none;
+    }
+
+    .services{
+        font-size: 30px;
+       
+    }
+
+}
+
+/* Contact */
+
+#contact{
+    background: url('../img/ContactBg.png') no-repeat;
+    padding-top: 250px;
+    margin-bottom: 50px;
+    background-size: 100%;
+    padding-bottom: 100px;
+}
+
+.contact p , .contact a{
+    color: white;
+
+}
+
+.contact p:nth-child(1){
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+
+}
+
+.contact p:nth-child(2){
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+   
+}
+.contact a{
+    background-color: #FED22B;
+    padding: 15px 30px;
+    border-radius: 20px;
+    text-decoration: none !important;
+
+}
