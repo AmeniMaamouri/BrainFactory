@@ -12,30 +12,43 @@
     padding-bottom: 90px;
 }
 
-#navbarHome nav div ul li {
+#navbarHome nav div ul li, #navbarRate nav div ul li {
     padding-left: 50px;
     padding-top: 30px;
+    
 }
 
-#navbarHome nav div ul li a{
+
+#navbarHome nav div ul li a, #navbarRate nav div ul li a{
 
     color: white !important;
     font-size: 20px;
 }
 
-#navbarHome nav div ul{
+#navbarHome nav div ul, #navbarRate nav div ul{
 
 padding-right: 3%;
 }
 
 
-#navbarHome div nav .navbar-brand {
-    padding-top: 27px;
+#navbarHome div nav .navbar-brand, #navbarRate div nav .navbar-brand  {
+   
     padding-left: 60px;
-    color: #727272;
+    padding-top: 27px;
     font-weight: bold;
     font-size: 30px;
 }
+
+#navbarHome div nav .navbar-brand{
+    padding-left: 60px;
+  
+    color: #727272;
+}
+#navbarRate div nav .navbar-brand{
+    padding-left: 40px;
+    color: white;
+}
+
 .fa-bars {
     color: white;
     font-size: 30px !important;
@@ -54,7 +67,7 @@ padding-right: 3%;
 
 @media (max-width: 1503px){
 
-    #navbarHome nav div ul li {
+    #navbarHome nav div ul li, #navbarRate nav div ul li {
         padding-left: 30px;
      
     }
@@ -110,7 +123,7 @@ padding-right: 3%;
        color: white !important;
     }
 
-    #navbarHome nav div ul li {
+    #navbarHome nav div ul li,  #navbarRate nav div ul li {
         padding-left: 0px;
         padding-top: 12px;
    
@@ -716,4 +729,52 @@ padding-bottom: 20px;
         }
 
       
+}
+
+/* rate page */
+
+#navbarRate{
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
+    padding-bottom: 900px;
+    background: url('../img/ratePagebg.png') no-repeat;
+
+    background-size: 100% 35%;
+
+}
+
+#navbarRate div p:nth-child(2), #navbarRate div p:nth-child(3) {
+    color: white;
+    text-align: center;
+    line-height: 30px;
+   
+}
+
+#navbarRate div p:nth-child(2){
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 100px;
+
+}
+#navbarRate div p:nth-child(3) {
+   font-size: 18px;
+
+}
+
+@media(max-width: 991px){
+    #navbarRate{
+    background: none;
+    background-color: #2161BE;
+    padding-bottom: 30px;
+    }
+
+    #navbarRate div p:nth-child(2){
+     
+        padding-top: 50px;
+    
+    }
+
+    #navbarRate div nav .navbar-brand{
+        padding-left: 0;
+    }
+
 }
