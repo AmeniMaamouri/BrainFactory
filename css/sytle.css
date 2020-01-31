@@ -106,8 +106,16 @@ padding-right: 3%;
 @media (max-width: 991px){
 
     #navbarHome nav div ul li a{
+        font-size: 17px;
+       color: white !important;
+    }
 
-       color: black !important;
+    #navbarHome nav div ul li {
+        padding-left: 0px;
+        padding-top: 12px;
+   
+        font-weight: bold;
+     
     }
 
 }
@@ -215,11 +223,7 @@ padding-right: 3%;
 }
 @media (max-width: 985px){
 
-    .headerHome {
-        margin-top: -20px;
-        padding-top: 0px;
-    }
-
+  
     #navbarHome div nav .navbar-brand {
 
         font-size: 25px;
@@ -229,29 +233,8 @@ padding-right: 3%;
 
 
 
-@media (max-width: 800px){
 
-    .headerHome p:nth-child(1){
-        font-size: 21px;
-        line-height: 25px;
-        
-    }
-
-    .headerHome a{
-       font-size: 13px;
-      
-    }
-
-    .headerHome p:nth-child(3){
-      padding-bottom: 7px;
-      width: 90%;
-        
-    }
-
-}
-
-
-@media (max-width: 767px){
+@media (max-width: 991px){
 
     #navbarHome{
         background: none;
@@ -284,6 +267,9 @@ padding-right: 3%;
       .headerHome p:nth-child(3){
         font-size: 18px;
         color: white;
+        width: 100%;
+        margin-left: -5% !important;
+       
         }
 
         #navbarHome div nav .navbar-brand {
