@@ -627,7 +627,7 @@ padding-right: 3%;
 
 @media (max-width:767px ){
 
-    #addressHome{
+    #addressRate{
      
         background: none;
    
@@ -652,7 +652,7 @@ padding-right: 3%;
     padding-bottom: 70px;
 }
 
-.footerHome {
+.footerHome , .footerRate {
     padding-top: 250px;
     color: white;
     margin-left: 7%;
@@ -699,7 +699,7 @@ padding-bottom: 20px;
 
 @media(max-width: 1050px){
     
-.footerHome {
+.footerHome, .footerRate {
    
     margin-left: 3%;
 }
@@ -707,7 +707,7 @@ padding-bottom: 20px;
 
 @media(max-width: 824px){
     
-    .footerHome {
+    .footerHome, .footerRate {
        
         margin-left: 0%;
     }
@@ -715,7 +715,7 @@ padding-bottom: 20px;
 
 @media(max-width: 767px){
     
-        #footerHome {
+        #footerHome, #footerRate {
            
            background: none;
            background-color: #2365DF;
@@ -724,7 +724,7 @@ padding-bottom: 20px;
            padding-bottom: 20px;
         }
 
-        .footerHome{
+        .footerHome, .footerRate{
             padding-top: 140px;
         }
 
@@ -952,4 +952,34 @@ padding-bottom: 20px;
        
         background: none;
     }
+}
+
+/* Adress */
+
+#addressRate{
+    margin-top: -340px;
+    background-size: 8%;
+    background: url('../img/addressRateBg.png') no-repeat;
+    background-position: right ;
+    padding-bottom: 50px;
+   
+}
+
+@media (max-width: 767px){
+    #addressRate{
+        background: none;
+
+    }
+    
+}
+
+
+/* Footer */
+
+#footerRate {
+    margin-top: 60px;
+    background: url("../img/footerHomeBg.png") no-repeat;
+    background-position: top ;
+    background-size: 100% 700px;
+    padding-bottom: 70px;
 }
