@@ -324,7 +324,7 @@ padding-right: 3%;
     background-position: left bottom, right 50%;
 }
 
-#serviceHome div p:nth-child(1){
+#serviceRate div p:nth-child(1){
     font-size: 18px;
     color: #FF4B57;
     font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
@@ -340,14 +340,14 @@ padding-right: 3%;
     margin-bottom: 7%;
 }
 
-.serviceHome p:nth-child(2){
+.serviceRate p:nth-child(2){
     font-size: 20px;
     font-weight: bold;
     font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
     padding-top: 20px;
 }
 
-.serviceHome p:nth-child(3){
+.serviceRate p:nth-child(3){
     
   color: #797975;
     font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
@@ -357,7 +357,7 @@ padding-right: 3%;
 
 @media (max-width:1500px){
 
-    #serviceHome{
+    #serviceRate{
  
         background-position: left -40px bottom, right -50px bottom;
     }
@@ -366,7 +366,7 @@ padding-right: 3%;
 
 @media (max-width:1240px){
 
-    #serviceHome{
+    #serviceRate{
  
         background-position: left -60px bottom, right -100px bottom;
     }
@@ -375,7 +375,7 @@ padding-right: 3%;
 
 @media (max-width:991px){
 
-    #serviceHome{
+    #serviceRate{
  
         background-position: left -60px bottom, right -100px top 60px;
     }
@@ -384,7 +384,7 @@ padding-right: 3%;
 
 @media (max-width:767px){
 
-    #serviceHome{
+    #serviceRate{
  
         background: none;
     }
@@ -797,14 +797,14 @@ padding-bottom: 20px;
     font-size: 30px;
     padding-bottom: 80px;
     font-weight: bold;
-    color: #F96232;
+    color: #FF4B57;
 
 }
 
 .offerRate p:nth-child(1) span {
 
    
-    color: #510CC1;
+    color: #2568EF;
 
 }
 
@@ -821,8 +821,9 @@ padding-bottom: 20px;
 }
 
 .card-body p:nth-child(2){
-    color: #F96232;
-    font-weight: 500;
+    color: #FF4B57;
+    font-weight: 600;
+ 
  
 }
 
@@ -838,15 +839,16 @@ padding-bottom: 20px;
     margin-right: 7%;
 }
 .card-text sup{
-    color: #F96232;
+    color: #FF4B57;
  
 }
 
 .card-body p:nth-child(4){
-    background-color: #FF855E;
+    background-color: #FDC602;
     color: white;
     font-size: 13px;
     width: 100px;
+    font-weight: 500;
     border-radius: 20px;
     padding: 4px 0;
     margin-top: 20px !important;
@@ -855,19 +857,19 @@ padding-bottom: 20px;
 }
 
 .offerElements {
-    color: #F96232;
+    color: #FF4B57;
     font-weight: bold;
     padding-top: 10px;
 }
 
 .fa-check-circle {
-    color: #510CC1;
+    color: #2568EF;
     font-size: 18px;
     margin-right: 2%;
 }
 
 .offerRate a {
-    background-color: #F96232;
+    background-color: #FDC602;
     padding: 15px 20px 15px 24px;
     text-decoration: none;
     border-radius: 30px;
@@ -935,7 +937,19 @@ padding-bottom: 20px;
     }
 
 
+}
 
-    
+/* Service */
 
+#serviceRate{
+    padding-top: 50px;
+    background: url("../img/ServiceRateBg.png") no-repeat top left;
+    padding-bottom: 200px;
+}
+
+@media (max-width: 767px) {
+    #serviceRate{
+       
+        background: none;
+    }
 }
