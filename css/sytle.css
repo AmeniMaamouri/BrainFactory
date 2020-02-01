@@ -778,3 +778,164 @@ padding-bottom: 20px;
     }
 
 }
+
+
+
+/* Offer */
+
+
+#offerRate {
+    margin-top: -700px;
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
+    background: url("../img/OfferRateBgRight.png") no-repeat , url("../img/OfferRateBgLeft.png") no-repeat;
+    background-position:  left top, right bottom;
+    padding-bottom: 100px;
+}
+
+.offerRate p:nth-child(1) {
+
+    font-size: 30px;
+    padding-bottom: 80px;
+    font-weight: bold;
+    color: #F96232;
+
+}
+
+.offerRate p:nth-child(1) span {
+
+   
+    color: #510CC1;
+
+}
+
+.card {
+    /* border: none; */
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+
+.card-title {
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.card-body p:nth-child(2){
+    color: #F96232;
+    font-weight: 500;
+ 
+}
+
+.card-body {
+    background: url('../img/OfferRateLine.png') no-repeat center center , url('../img/OfferRateLine2.png') no-repeat center center;
+    background-position: 50% 25%, 50% 61% ;
+    background-size: 95%;
+}
+.card-text {
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 30px;
+    margin-right: 7%;
+}
+.card-text sup{
+    color: #F96232;
+ 
+}
+
+.card-body p:nth-child(4){
+    background-color: #FF855E;
+    color: white;
+    font-size: 13px;
+    width: 100px;
+    border-radius: 20px;
+    padding: 4px 0;
+    margin-top: 20px !important;
+  margin-bottom: 40px !important;
+    margin: auto;
+}
+
+.offerElements {
+    color: #F96232;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.fa-check-circle {
+    color: #510CC1;
+    font-size: 18px;
+    margin-right: 2%;
+}
+
+.offerRate a {
+    background-color: #F96232;
+    padding: 15px 20px 15px 24px;
+    text-decoration: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.arrowOfferRate {
+    font-size: 48px;
+    padding-top: 28px;
+   padding-left: 1%;
+}
+
+@media (max-width: 1165px){
+
+    #offerRate {
+        background-position:  left -60px top , right -60px bottom;
+        padding-bottom: 70px;
+    }
+
+    
+
+}
+
+@media (min-width: 992px){
+
+    .offerRate .row {
+        margin-bottom: 50px;
+    }
+
+    
+
+}
+
+@media (min-width: 768px){
+
+    .offerRate .row {
+        margin-bottom: 30px;
+    }
+
+    
+
+}
+
+@media (max-width: 991px){
+
+    #offerRate {
+        margin-top: 50px;
+    }
+
+    .offerRate p:nth-child(1) {
+
+        padding-top: 20px;
+        padding-bottom: 50px;
+    
+    }
+
+    
+
+}
+
+@media (max-width: 767px){
+
+    #offerRate {
+       background: none;
+    }
+
+
+
+    
+
+}
