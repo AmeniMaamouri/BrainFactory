@@ -716,8 +716,8 @@ padding-bottom: 20px;
     
         #footerHome, #footerRate {
            
-           background: none;
-           background-color: #2365DF;
+           background: none !important;
+           background-color: #2365DF !important;
            text-align: center;
            margin-top: -320px;
            padding-bottom: 20px;
@@ -973,6 +973,15 @@ padding-bottom: 20px;
         background: none;
 
     }
+
+    #footerRate {
+           
+        background: none !important;
+        background-color: #2365DF !important;
+        text-align: center;
+        margin-top: -10px !important;
+     
+     }
     
 }
 
@@ -1121,4 +1130,96 @@ padding-bottom: 20px;
 
     
 
+}
+
+
+/* Contact Informations */
+
+#ContactInformations{
+   
+    padding-top: 30px;
+    margin-bottom: 80px !important;
+    padding-bottom: 20px;
+}
+.ContactInformations {
+    width: 80%;
+    background-color: #2568EF;
+    color: white;
+    height: 180px;
+    border-radius: 50px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.ContactInformations div p {
+   
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
+  
+}
+
+#ContactInformations .fa-map-marker-alt, #ContactInformations .fa-phone-alt, #ContactInformations .fa-envelope {
+    font-size: 40px;
+   margin-top: 10px;
+
+ 
+ 
+}
+
+.ContactInformations div  p:nth-child(1){
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.ContactInformations div  p:nth-child(2){
+
+    font-size: 15px;
+}
+
+@media (max-width: 1250px) and (min-width: 992px) {
+    #ContactInformations .fa-map-marker-alt, #ContactInformations .fa-phone-alt, #ContactInformations .fa-envelope {
+        font-size: 35px;
+     
+    }
+
+    .ContactInformations div  p:nth-child(1){
+       
+        font-size: 16px;
+    }
+
+    .ContactInformations div  p:nth-child(1), .ContactInformations div  p:nth-child(2) {
+       
+        padding-left: 15px;
+    }
+    
+}
+
+@media (max-width: 991px){
+    .ContactInformations {
+        height: 300px;
+    }
+
+    #ContactInformations .fa-map-marker-alt, #ContactInformations .fa-phone-alt, #ContactInformations .fa-envelope {
+       margin-top: 0px;
+       margin-left: 20%;
+    }
+    
+}
+
+
+@media (max-width: 767px){
+    .ContactInformations {
+        height: 500px;
+    }
+
+    #ContactInformations .fa-map-marker-alt, #ContactInformations .fa-phone-alt, #ContactInformations .fa-envelope {
+        margin-bottom: 20px;
+       margin-left: 0;
+       font-size: 35px;
+    }
+
+    .ContactInformations div p {
+   line-height: 10px;
+      
+    }
+    
 }
