@@ -1274,22 +1274,22 @@ padding-bottom: 20px;
     }
 }
 
-@media (max-width: 1083px){
+@media (max-width: 1100px){
     .domicilationTxt {
      
         padding-top: 3.2% !important;
        
     }
-    #conceptDomicilation{
+    #conceptDomicilation, #conceptCoWorking{
         background-position:  left -50px  top;
-        background-size: 30% ;
+        background-size: 30% !important;
     
     }
 }
 
 @media (max-width: 991px){
     #conceptDomicilation{
-        margin-top: 40px;
+        margin-top: 60px !important;
     }
 
     .domicilationTxt {
@@ -1298,7 +1298,7 @@ padding-bottom: 20px;
        
     }
 
-    #conceptDomicilation{
+    #conceptDomicilation, #conceptCoWorking{
         background-position:  left  top;
         background-size: 30% ;
     
@@ -1317,13 +1317,13 @@ padding-bottom: 20px;
 @media (max-width: 767px){
     .domicilationTxt {
         text-align: center !important;
-        padding-top: 10px !important;
+        margin-top: -30px !important;
         padding-bottom: 20px;
         padding-left: 0% !important;
     }
 
-    #conceptDomicilation{
-        background: none;
+    #conceptDomicilation, #conceptCoWorking{
+        background: none !important;
     
     }
 
@@ -1337,4 +1337,133 @@ padding-bottom: 20px;
         padding-bottom: 0px;
       
     }
+}
+
+
+/* Financement */
+
+#conceptFinancement {
+    margin-top: -140px;
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
+    background: url('../img/ConceptFinancementBg.png') no-repeat;
+    background-position:  right top;
+
+    padding-bottom: 300px;
+}
+
+.conceptFinancementImg {
+    width: 55% !important;
+    margin-right: 5%;
+}
+
+.FinancementTxt {
+    text-align: left !important;
+    padding-top: 7%;
+    color: #797975;
+    font-size: 18px;
+   
+}
+
+@media (max-width: 991px){
+    #conceptFinancement{
+        margin-top: -190px;
+    }
+
+    .conceptFinancementTxt {
+     
+       font-size: 17px;
+       
+    }
+
+
+}
+
+@media (max-width: 1100px){
+    #conceptFinancement {
+   
+        background-position:  right -100px top !important;
+   
+    }
+}
+
+
+@media (max-width: 1450px){
+    .conceptFinancementImg {
+        width: 70% !important;
+    }
+}
+
+@media (max-width: 1163px){
+    .FinancementTxt {
+     
+        padding-top: 5% !important;
+       
+    }
+
+}
+
+@media (max-width: 991px){
+    #conceptFinancement{
+        margin-top: -150px;
+    }
+
+    .FinancementTxt {
+     
+       font-size: 17px;
+       
+    }
+
+ 
+}
+
+@media (max-width: 814px){
+    .FinancementTxt {
+     
+        padding-top: 3% !important;
+       
+    }
+
+}
+
+@media (max-width: 767px){
+    .FinancementTxt {
+        text-align: center !important;
+        padding-top: 40px !important;
+        padding-bottom: 20px;
+
+    }
+
+    #conceptFinancement{
+        background: none;
+        margin-top: -200px;
+    
+    }
+
+    .conceptFinancementImg {
+        width: 100% !important;
+       
+    }
+    .ConceptsectionTitle {
+        padding-bottom: 30px;
+    }
+
+}
+
+/* Co-Working */
+
+#conceptCoWorking{
+    margin-top: -120px;
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
+    background: url('../img/ConceptDomicilationBg.png') no-repeat;
+    background-position:  left top;
+    padding-bottom: 300px;
+
+
+}
+
+@media (max-width: 767px){
+    #conceptCoWorking{
+        margin-top: -250px;
+    }
+
 }
