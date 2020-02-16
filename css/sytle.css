@@ -1593,3 +1593,63 @@ padding-bottom: 20px;
      }
 
 }
+
+
+/* Informations */
+
+#ConceptInformations{
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
+    background: url('../img/ConceptInformaitonsBgLeft.png') no-repeat, url('../img/ConceptInformationsBgRight.png') no-repeat;
+    background-position:  right top, left top;
+    padding-bottom: 300px;
+}
+
+.fa-building, .fa-tv, .fa-handshake{
+
+    
+    color: #F96232;
+
+}
+.fa-tv, .fa-handshake{
+    font-size: 48px !important;
+}
+.fa-building {
+    font-size: 60px !important;
+}
+
+.infoNum {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.infoTxt {
+    padding-top: 25px;
+    font-weight: bold;
+    color: #727272;
+    margin-left: 10%;
+}
+
+.ConceptInformations .row {
+    margin-left: -4%;
+    padding-top: 30px;
+}
+
+@media (max-width: 1160px){
+    .ConceptInformations .row {
+        margin-left: -6% !important;
+    }
+}
+
+@media (max-width: 767px){
+   .infoTxt{
+    padding-bottom: 60px;
+   }
+
+   .ConceptInformations .row {
+    margin-top : -28px
+}
+#ConceptInformations{
+    background: none;
+}
+
+}
