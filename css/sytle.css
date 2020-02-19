@@ -791,7 +791,7 @@ padding-bottom: 20px;
     padding-bottom: 100px;
 }
 
-.offerRate p:nth-child(1), .formsContact p:nth-child(1), .CalendarPartner p:nth-child(1) {
+.offerRate p:nth-child(1), .formsContact p:nth-child(1), .CalendarPartner p:nth-child(1), .CalendarPresence p:nth-child(1) {
 
     font-size: 30px;
     font-weight: bold;
@@ -804,7 +804,7 @@ padding-bottom: 20px;
 
 }
 
-.offerRate p:nth-child(1) span, .formsContact p:nth-child(1) span, .CalendarPartner p:nth-child(1) span {
+.offerRate p:nth-child(1) span, .formsContact p:nth-child(1) span, .CalendarPartner p:nth-child(1) span, .CalendarPresence p:nth-child(1) span {
 
    
     color: #2568EF;
@@ -1673,4 +1673,95 @@ padding-bottom: 20px;
 #CalendarPartner {
     font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
     margin-top: -700px;
+    background: url('../img/CalendarPartnerBg.png') no-repeat;
+    background-position: top right;
+    padding-bottom: 600px;
+
 }
+
+
+.CalendarPartner .row {
+    padding-top: 100px;
+}
+
+.CalendarPartner .row div img {
+   padding-bottom: 30px;
+}
+
+@media (max-width: 991px){
+    #CalendarPartner{
+        margin-top: 60px;
+    }
+
+    #CalendarPartner{
+        background-position: 20px -100px right !important;
+        background-size: 30%;
+    }
+
+    .CalendarPartner .row {
+        padding-top: 70px;
+    }
+   
+}
+
+@media (max-width: 767px){
+    #CalendarPartner{
+        background: none;
+    }
+
+}
+
+/* Presence */
+
+#CalendarPresence {
+    margin-top: -470px;
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif;
+    padding-bottom: 30px !important;
+    background: url('../img/CalendarPresenceBg.png') no-repeat;
+    background-position: top left;
+}
+
+.carousel-inner img {
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 35px;
+  }
+
+
+ .carousel-indicators li {
+    display: inline-block;
+    width: 17px;
+    background-color: rgba(0, 0, 0, 0);
+    height: 17px;
+    text-indent: -999px;
+    border: 1px solid #ADC2EC;
+    background: #ADC2EC;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+   
+    border: 1px solid #2568EF;
+    background: #2568EF;
+}
+
+@media (max-width: 991px){
+    #CalendarPresence{
+        margin-top: -500px;
+        background-position:  top left -200px;
+    }
+
+    .carousel-item img{
+       width: 80%;
+      }
+}
+
+@media (max-width: 767px){
+    #CalendarPresence{
+        margin-top: -550px;
+        background: none;
+    }
+    }
+
+}
+
