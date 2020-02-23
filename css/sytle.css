@@ -791,7 +791,7 @@ padding-bottom: 20px;
     padding-bottom: 100px;
 }
 
-.offerRate p:nth-child(1), .formsContact p:nth-child(1), .CalendarPartner p:nth-child(1), .CalendarPresence p:nth-child(1) {
+.offerRate p:nth-child(1), .formsContact p:nth-child(1), .CalendarPartner p:nth-child(1), .CalendarPresence p:nth-child(1) , .Calendar p:nth-child(1){
 
     font-size: 30px;
     font-weight: bold;
@@ -804,49 +804,49 @@ padding-bottom: 20px;
 
 }
 
-.offerRate p:nth-child(1) span, .formsContact p:nth-child(1) span, .CalendarPartner p:nth-child(1) span, .CalendarPresence p:nth-child(1) span {
+.offerRate p:nth-child(1) span, .formsContact p:nth-child(1) span, .CalendarPartner p:nth-child(1) span, .CalendarPresence p:nth-child(1) span, .Calendar p:nth-child(1) span  {
 
    
     color: #2568EF;
 
 }
 
-.card {
+#offerRate .card {
     /* border: none; */
     border-radius: 30px;
     margin-bottom: 30px;
 }
 
 
-.card-title {
+#offerRate .card-title {
     font-weight: bold;
     padding-top: 20px;
 }
 
-.card-body p:nth-child(2){
+#offerRate .card-body p:nth-child(2){
     color: #FF4B57;
     font-weight: 600;
  
  
 }
 
-.card-body {
+#offerRate .card-body {
     background: url('../img/OfferRateLine.png') no-repeat center center , url('../img/OfferRateLine2.png') no-repeat center center;
     background-position: 50% 25%, 50% 61% ;
     background-size: 95%;
 }
-.card-text {
+#offerRate .card-text {
     font-size: 50px;
     font-weight: bold;
     padding-top: 30px;
     margin-right: 7%;
 }
-.card-text sup{
+#offerRate .card-text sup{
     color: #FF4B57;
  
 }
 
-.card-body p:nth-child(4){
+#offerRate .card-body p:nth-child(4){
     background-color: #FDC602;
     color: white;
     font-size: 13px;
@@ -1721,14 +1721,14 @@ padding-bottom: 20px;
     background-position: top left;
 }
 
-.carousel-inner img {
+#CalendarPresence .carousel-inner img {
     margin: auto;
     padding-top: 40px;
     padding-bottom: 35px;
   }
 
 
- .carousel-indicators li {
+  #CalendarPresence .carousel-indicators li, #Calendar .carousel-indicators li{
     display: inline-block;
     width: 17px;
     background-color: rgba(0, 0, 0, 0);
@@ -1739,7 +1739,10 @@ padding-bottom: 20px;
     border-radius: 50%;
 }
 
-.carousel-indicators .active {
+
+
+
+#CalendarPresence .carousel-indicators .active, #Calendar .carousel-indicators .active {
    
     border: 1px solid #2568EF;
     background: #2568EF;
@@ -1751,7 +1754,7 @@ padding-bottom: 20px;
         background-position:  top left -200px;
     }
 
-    .carousel-item img{
+    #CalendarPresence .carousel-item img{
        width: 80%;
       }
 }
@@ -1763,5 +1766,165 @@ padding-bottom: 20px;
     }
     }
 
+
+
+/* Agenda */
+
+#Calendar {
+    font-family: 'Poppins', Cambria, Cochin, Georgia, Times, 'Times New Roman' ,sans-serif !important;
+    padding-top: 50px;
+    background: url('../img/notreAgendaBg.png') no-repeat;
+    background-position: right;
 }
 
+#Calendar .card {
+    margin-top: 60px !important;
+    width: 80%;
+    margin: 0 auto; 
+    float: none; 
+    margin-bottom: 10px; 
+    border-radius: 30px;
+    overflow:hidden
+   
+}
+
+#Calendar .card-block{
+
+    padding-top: 35px;
+
+}
+
+#Calendar .card:nth-child(3) {
+ 
+    margin-bottom: 65px;
+  }
+
+.Calendardate {
+    padding-top: 50px;
+    font-size: 22px;
+   
+}
+
+.month {
+    margin-top: -20px;
+}
+.card-title {
+    font-weight: bold;
+}
+#Calendar .card-text{
+    color: #A4A4A4 !important;
+}
+
+#Calendar .cardMd .card .card-body p{
+    font-size: 15px !important;
+    font-weight: none !important;
+}
+.cardMd p:nth-child(1){
+    color: black;
+   
+}
+.month{
+    padding-top: 10px;
+}
+
+#Calendar .fa-map-marker-alt, .fa-thumbtack {
+    font-size: 20px;
+    color: #FF4B57;
+    margin-right: 10px;
+
+}
+
+
+
+.fa-thumbtack {
+    margin-left: 30px;
+
+}
+.card-block span {
+    font-size: 20px;
+    color: #727272;
+  
+}
+
+.dateCardMd {
+   padding-top: 30px;
+   font-size: 20px;
+   font-weight: bold;
+    
+   
+}
+
+@media (max-width: 1355px){
+    #Calendar .card-block{
+
+        margin-left: 6%;
+        padding-top: 25px;
+    
+    }
+    .card-title {
+        font-size: 22px;
+        
+    }
+
+
+}
+
+@media (max-width: 1275px){
+    #Calendar .card-block{
+
+        padding-top: 18px;
+    
+    }
+    .card-block span{
+        font-size: 18px;
+    }
+    .card-block .row {
+       
+        margin-top: -5px !important;
+    }
+}
+
+@media (max-width: 1200px){
+    #Calendar .card-block{
+
+        margin-left: 15%;
+    
+    }
+}
+
+@media (min-width: 1061px){
+
+    .cardMd{
+        display: none;
+    }
+
+}
+
+@media (max-width: 1061px){
+
+    .cardLg{
+        display: none;
+    }
+
+}
+
+@media (max-width: 767px){
+    #Calendar {
+   
+        background: none;
+ 
+    }
+
+    #Calendar .card:nth-child(3) {
+ 
+        margin-bottom: 60px;
+      }
+}
+
+@media (max-width: 344px){
+
+    .cardMd .card{
+        width: 17rem !important;
+    }
+
+}
